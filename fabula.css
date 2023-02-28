@@ -1,0 +1,78 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0%;
+    background-size: 1890px;
+}
+
+@font-face {
+    font-family: Harry_Potter;
+    src: url("HARRP.TTF");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: url(kursor.png), url(kursor.cur), pointer
+}
+
+nav {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    font-family: Harry_Potter;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #4b6ba3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    width: 1%;
+    height: 3%;
+    line-height: 50px;
+    background: black;
+    width: 25%;
+}
+
+ul ul li {
+    position: relative;
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+ul ul ul {
+    display: none;
+}
+
+header {
+    margin-left: 6px;
+}
+
+main {
+    margin-top: 100px;
+    margin-left: 12px;
+}

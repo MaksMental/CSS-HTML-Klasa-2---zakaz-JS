@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: url(kursor.png), url(kursor.cur), pointer
+}
+
+@font-face {
+    font-family: Harry_Potter;
+    src: url("HARRP.TTF");
+}
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    font-family: Harry_Potter;
+    position: fixed;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #4b6ba3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    line-height: 50px;
+    background: black;
+    width: 25%;
+
+}
+
+ul ul li {
+    position: relative;
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+header {
+    font-family: Harry_Potter;
+    font-size: 50px;
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    color: white;
+    text-shadow: 4px 4px #000000;
+}
+
+main {
+    position: absolute;
+    top: 40%;
+}
+
+main a {
+    color: red;
+    text-decoration: none;
+
+}
+
+main a {
+    float: left;
+    line-height: 50px;
+    background: black;
+    width: 20%;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+
+
+}
+
+.HP {
+    height: 17%;
+    width: 17%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.HG {
+    height: 17%;
+    width: 11%;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
